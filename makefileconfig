@@ -1,0 +1,16 @@
+REP:
+NAME:example
+COMPILEFLAGS:-W -Wall -Wextra
+INCLUDES:includes
+LIBS:
+LDFLAGS:
+SRCPATH:src
+DEBUG:yes
+D_CC:clang
+D_CFLAGS:-g -Weverything
+D_LDFLAGS:
+ARCHIVE:
+main.c
+file2.c
+file3.c
+/*END*/
